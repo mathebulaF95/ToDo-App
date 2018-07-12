@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {MONTH} from '../../mocks/list.mocks'
 
 /**
- * Generated class for the HomePage page.
+ * Generated class for the AddTaskPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,21 +11,24 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html',
+  selector: 'page-add-task',
+  templateUrl: 'add-task.html',
 })
-export class HomePage {
+export class AddTaskPage {
 
-  name = " WELCOM TO MY ToDo APP";
+  surname;
+  Meat
+  MONTH
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad HomePage');
+    console.log('ionViewDidLoad AddTaskPage');
   }
 
-  nav(){
-    this.navCtrl.push('DetailsPage', {life: this.name})
+  adding(){
+    this.navCtrl.push('DetailsPage')
+    MONTH.push({list:this.Meat})
   }
 }

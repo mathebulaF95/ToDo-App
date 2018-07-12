@@ -1,3 +1,42 @@
-page-home {
 
+
+.ggg{
+
+    margin-top: 60%;
+    h1{ text-align: center;
+        transform: translateY(00%);
+        font-size: 500%;
+        
+        }
+
+    background-image: url('../assets/imgs/tod.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+
+   background-image: url('../assets/imgs/sky.jpg');
+   background-position: center center;
+   height:20%;
+   //background-size: 50%;
+  // background-repeat: no-repeat;
+    
+    
+    
+
+    button{
+       background-color:black; 
+       position: absolute;
+       transform: translateX(-50%);
+       left:50%;
+       bottom: 40px;
+    }
+}
+
+ion-title{
+    text-align: center;
+}
+
+ion-title{
+    background-color: skyblue;
 }
